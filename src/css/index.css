@@ -1,0 +1,146 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* COLORS */
+    /* PRIMARY */
+    /****** TEXT ******/
+    --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --Soft-red: hsl(14, 88%, 65%);
+
+    /* GRADIENT */
+    /* BACKGROUND GRADIENT */
+    --Soft-violet: hsl(273, 75%, 66%);
+    --Soft-blue: hsl(240, 73%, 65%);
+
+    /* NEUTRAL */
+    /***** TEXT *****/
+    --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --Dark-grayish-blue: hsl(240, 6%, 50%);
+
+    /* DIVIDERS */
+    --Light-grayish-blue: hsl(240, 5%, 91%);
+
+    /* SHADOW */
+    --shadow: 0 2rem 2rem 0 rgba(0, 0, 0, .2);
+}
+/* OVERRIDE DEFAULT STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    transition: .4s all ease;
+}
+
+body {
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+/* STYLING FOR CARD */
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 15vh;
+    background: #fff;
+    border-radius: 21px;
+    padding: 4rem;
+    box-shadow: var(--shadow);
+}
+
+/* STYLING FOR MAIN IMAGE */
+
+
+.img {
+    background: url(../assets/images/bg-pattern-desktop.svg);
+    width: 600%;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%);
+    position: relative;
+    left: -110px;
+}
+
+.box {
+    position: relative;
+    left: -350px;
+    top: 50px;
+}
+
+.shadow{
+    width: 100%;
+    position: relative;
+    left: -200px;
+    top: 100px;
+}
+
+.title {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+/********* FAQ STYLING *********/
+
+.faqs {
+    padding-right: 2rem;
+}
+
+
+.faq-container {
+    width: 300%;
+}
+
+.item {
+    margin-bottom: 1rem;
+}
+
+/* STYLING FOR ARROW  */
+.arrow {
+    cursor: pointer;
+}
+
+.arrow-expanded {
+    transform: rotate(180deg);
+}
+
+hr {
+    border-top: none;
+    margin-bottom: 1rem;
+    color: var(--Light-grayish-blue);
+}
+
+.faq {
+    color: var(--Dark-grayish-blue);
+    cursor: pointer;
+}
+
+.faq:hover {
+    color: var(--Soft-red);
+}
+
+.faq-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-response {
+    font-size: .8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--Dark-grayish-blue);
+    display: none;
+}
+
+.expanded {
+    display: block;
+}
+
+.faq-expanded {
+    color: var(--Very-dark-desaturated-blue);
+}
+
