@@ -1,0 +1,60 @@
+@media (max-width: 900px) {
+
+    #root {
+        margin-top: 30%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .card {
+        display: block;
+        max-width: 500px;
+        padding: 1.5rem;
+        margin: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+        width: 100%;
+        position: relative;
+        top: -100px;
+    }
+
+    .shadow {
+        left: 0px;
+        top: -350px;
+    }
+
+    .faq-container {
+        width: 100%;
+        text-align: center;
+        margin-top: -20rem;
+    }
+
+    .faqs {
+        padding-right: 0px;
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 300px) {
+    #root {
+        margin-top: 50%;
+    }
+
+    .faq-container {
+        margin-top: -15rem;
+    }
+
+    .shadow {
+        top: -250px;
+    }
+}

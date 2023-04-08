@@ -65,6 +65,10 @@ body {
     left: -110px;
 }
 
+.img-mobile {
+    display: none;
+}
+
 .box {
     position: relative;
     left: -350px;
@@ -88,7 +92,6 @@ body {
 .faqs {
     padding-right: 2rem;
 }
-
 
 .faq-container {
     width: 300%;
