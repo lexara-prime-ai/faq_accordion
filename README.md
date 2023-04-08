@@ -1,6 +1,6 @@
 ## Frontend Mentor - FAQ accordion card
 
-#### *Live* preview : 
+#### *Live* preview : https://faq-accordion.onrender.com/
 
 *preview*
 
