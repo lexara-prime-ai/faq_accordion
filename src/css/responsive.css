@@ -5,15 +5,15 @@
     }
 
     body {
-        overflow-x: hidden;
+        height: auto;
     }
 
     .card {
         display: block;
         max-width: 500px;
+        margin: auto;
         padding: 1.5rem;
-        margin: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 4rem;
     }
 
     .desktop {
@@ -28,22 +28,46 @@
     }
 
     .shadow {
+        display: block;
+        width: 100%;
+        position: relative;
         left: 0px;
-        top: -350px;
+        top: -500px;
     }
 
     .faq-container {
         width: 100%;
         text-align: center;
-        margin-top: -20rem;
+        margin-top: -30rem;
     }
 
     .faqs {
         padding-right: 0px;
+        padding-left: 0px;
         text-align: left;
     }
 
 }
+
+@media (max-width: 500px) {
+
+    .card {
+        margin: 1rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .shadow {
+        top: -350px;
+    }
+
+    .faq-container {
+        margin-top: -20rem;
+    }
+}
+
 
 @media (max-width: 300px) {
     #root {
@@ -55,6 +79,6 @@
     }
 
     .shadow {
-        top: -250px;
+        top: -275px;
     }
 }

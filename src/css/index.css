@@ -36,18 +36,19 @@
 body {
     background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
 }
 
 /* STYLING FOR CARD */
 .card {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: space-between;
     max-width: 900px;
     margin: auto;
     margin-top: 15vh;
+    margin-bottom: 15vh;
     background: #fff;
     border-radius: 21px;
     padding: 4rem;
@@ -55,12 +56,10 @@ body {
 }
 
 /* STYLING FOR MAIN IMAGE */
-
-
 .img {
     background: url(../assets/images/bg-pattern-desktop.svg);
-    width: 600%;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%);
+    width: 500%;
     position: relative;
     left: -110px;
 }
@@ -71,15 +70,12 @@ body {
 
 .box {
     position: relative;
-    left: -350px;
+    left: -265px;
     top: 50px;
 }
 
-.shadow{
-    width: 100%;
-    position: relative;
-    left: -200px;
-    top: 100px;
+.shadow {
+    display: none;
 }
 
 .title {
@@ -91,6 +87,7 @@ body {
 
 .faqs {
     padding-right: 2rem;
+    padding-left: 4rem;
 }
 
 .faq-container {
