@@ -5,7 +5,12 @@
     }
 
     body {
+<<<<<<< HEAD
         height: auto;
+=======
+        overflow-x: hidden;
+        height: 100vh;
+>>>>>>> 307c4102262f5a04a362a61e8270e71aa3b37b39
     }
 
     .card {
